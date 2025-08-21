@@ -1,0 +1,31 @@
+BenefitID,BenefitType,BenefitSubType,BenefitCost
+1,Retirement Plan,401k Basic Matching,876.21
+2,Health Insurance,PPO Individual,706.93
+3,Commuter Benefits,Transit Subsidy,325.00
+4,Retirement Plan,401k High Contribution,261.44
+5,Technology Stipend,Monthly Internet Allowance,75.00
+6,Retirement Plan,401k Standard Matching,598.44
+7,Flexible Spending Account,Healthcare FSA,450.00
+8,Wellness Programs,Premium Discount Tier 1,125.00
+9,Professional Development,Conference Attendance,850.00
+10,Childcare,On-Site Infant Care,915.48
+11,Health Insurance,PPO Family,928.75
+12,Tuition Reimbursement,Graduate Degree,824.53
+13,Cell Phone Allowance,Monthly Communications,65.00
+14,Gym Membership,Tier 1 Partners,73.36
+15,Tuition Reimbursement,Professional Certification,359.21
+16,Health Insurance,HDHP Individual,84.55
+17,Retirement Plan,401k Catch-Up Contributions,509.65
+18,Retirement Plan,401k Investment Fees,743.01
+19,Gym Membership,Tier 2 Partners,343.73
+20,Tuition Reimbursement,Undergraduate Degree,489.96
+21,Life Insurance,Basic Coverage,163.92
+22,Health Insurance,HMO Family,624.00
+23,Life Insurance,Supplemental High Amount,969.28
+24,Gym Membership,Tier 3 Partners,780.78
+25,Life Insurance,Supplemental Standard,774.91
+26,Gym Membership,Family Membership,519.66
+27,Retirement Plan,401k Maximum Matching,913.01
+28,Life Insurance,Dependent Coverage,165.54
+29,Childcare,After-School Care,475.00
+30,Tuition Reimbursement,Individual Courses,723.73
