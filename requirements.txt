@@ -10,7 +10,6 @@ langgraph
 chromadb
 textblob
 tqdm
-concurrent
 wordcloud
 matplotlib
 plotly
