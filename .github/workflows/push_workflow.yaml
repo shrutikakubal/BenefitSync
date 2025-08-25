@@ -8,6 +8,9 @@ on:
 jobs:
   run_script:
     runs-on: ubuntu-latest
+    env:
+          # Define the environment variable for this step
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
     steps:
       - name: Checkout code
@@ -24,8 +27,5 @@ jobs:
           pip install requests
 
       - name: Execute Python script with secret
-        env:
-          # Define the environment variable for this step
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }} 
         run: |
           python app.py
