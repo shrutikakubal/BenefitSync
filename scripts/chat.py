@@ -1,6 +1,5 @@
 # Run : https://gpu-instance-r8zy.notebook.us-west-2.sagemaker.aws/proxy/8501/
 
-from openai import OpenAI
 import streamlit as st
 from response import chatbot
 import time
