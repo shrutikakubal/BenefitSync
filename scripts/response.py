@@ -23,7 +23,7 @@ import chromadb
 
 # ----------------------------------------------------------------------
 # Prompt user for OpenAI API key securely
-os.environ["OPENAI_API_KEY"] = openai_api_key
+os.environ["OPENAI_API_KEY"] = os.getenv('OPENAI_API_KEY')
 
 embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
 
