@@ -1,0 +1,31 @@
+name: Run Python Script with API Key
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run_script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Execute Python script with secret
+        env:
+          # Define the environment variable for this step
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }} 
+        run: |
+          python app.py
